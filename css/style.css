@@ -1,0 +1,149 @@
+header{
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 4em;
+	
+}
+.imagen{
+	background-image: url(../assents/img/soda-stereo-1.jpg);
+	height: 40em;
+	width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.izquierda h1{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 8px;
+}
+.izquierda img{
+	padding-top: 6px;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5%;
+	color:#000;
+
+}
+h2{
+	margin: 2%;
+}
+
+.btn{
+	display: none;
+}
+ .columnas .col-8, .columnas .col-4{
+	padding: 6% 10%;
+
+}
+.container-fluid .trayectoria{
+	height: auto;
+	display: inline-block;
+	padding: 2%;
+	position: center;
+}
+
+
+.cerati2{
+	background-image: url(../assents/img/cerati2.jpeg);
+	height: 335px;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	display: inline-block;
+	
+
+	
+}
+.gif-1{
+	background-image: url(../assents/img/gif.gif);
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	display: inline-block;
+		
+}
+
+ .tercera-imagen{
+	background-image: url(../assents/img/cerati_portada.jpg);
+	height: 240px;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	display: inline-block;
+}
+.pie-de-pagina{
+	height: 100px;
+	background-color: #ccc;
+	color:#000;
+	text-align: right;
+}
+.pie-de-pagina p{
+	padding: 3%;
+}
+@media (max-width: 1400px) and (min-width: 400px){
+	.menu-der{
+		display: inline-block;
+	}
+	.izquierda img{
+
+   	width: 8%;
+   }
+
+	#btn{
+		display: none;
+	}
+	.columnas{
+		margin-left: 20px;
+	}
+}
+@media (max-width: 767px) and (min-width: 576px){
+	 h1{
+
+	font-size: 2em;
+	margin-top: 0%;
+	text-align: center;
+	
+   }
+   .btn{
+   	display: none;
+   }
+
+}
+@media (max-width: 767px) and (min-width: 576px){
+	.menu-der{
+		display: none;
+
+	}
+	.navegador{
+		float: right;
+		display: inline-block;
+	}
+	.columnas{
+		margin-left:0;
+		
+	}
+	.imagenes-3{
+		margin-left: 0;
+		height: 180px;
+	    background-size: 150% auto;
+	    background-position: center -20px;
+
+	}
+	.btn{
+		display: inline-block;
+		position: center;
+	}
+}
+
+
+
+
+
+
+
+
+

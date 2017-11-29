@@ -1,0 +1,32 @@
+body{
+	font-family:verdana;
+}
+button{
+	width: 80px;
+}
+nav{
+	width: 60%;
+	margin-right: 20%;
+	text-align: center;
+
+}
+ul{
+	list-style: none;
+}
+li:hover{
+	background-color: #fff; 
+
+}
+a:hover{
+	background-color:#000;
+}
+a{
+	text-decoration: none;
+
+}
+.enable-menu{
+	display: block;
+}
+.opc-menu{
+	display: none;
+}
