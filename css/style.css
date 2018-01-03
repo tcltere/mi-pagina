@@ -1,10 +1,24 @@
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
 header{
 	background-color: #CCCCCC;
 	width: 100%;
 	height: 4em;
 	
 }
-.imagen{
+.imagen-fondo{
 	background-image: url(../assents/img/soda-stereo-1.jpg);
 	height: 40em;
 	width:100%;
@@ -14,77 +28,69 @@ header{
 	background-attachment: fixed;
 
 }
-
-.izquierda h1{
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 8px;
+body{
+  background: black;
+  color: #fff;
 }
-.izquierda img{
-	padding-top: 6px;
+ul{
+	float: right;
+	margin-top: 15px;
 }
-a{
+li{
 	display: inline-block;
-	text-decoration: none;
-	padding: 5%;
-	color:#000;
-
+	color: black;
+	margin-top: 5px;
+	cursor: pointer;
+}
+h4{
+	float: left;
+	margin-top: 16px;
+	color: #866100;
+	}
+h1{
+	color: #866100;
+	padding: 10px;
 }
 h2{
-	margin: 2%;
+	color:  #866100;
 }
-
-.btn{
-	display: none;
+p{
+	color: #CCCCCC;
 }
- .columnas .col-8, .columnas .col-4{
-	padding: 6% 10%;
-
+img{
+	margin: 7px;
 }
-.container-fluid .trayectoria{
-	height: auto;
-	display: inline-block;
-	padding: 2%;
-	position: center;
-}
-
-
-.cerati2{
-	background-image: url(../assents/img/cerati2.jpeg);
-	height: 335px;
-	background-repeat: no-repeat;
-	background-size: 90%;
-	display: inline-block;
+.columnas-info{
 	
-
-	
-}
-.gif-1{
-	background-image: url(../assents/img/gif.gif);
-	height: 350px;
-	background-repeat: no-repeat;
-	background-size: 90%;
 	display: inline-block;
-		
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	margin: 10px;
 }
 
- .tercera-imagen{
-	background-image: url(../assents/img/cerati_portada.jpg);
-	height: 240px;
-	background-repeat: no-repeat;
-	background-size: 90%;
-	display: inline-block;
+.Tarjetas img{
+	width: 70%;
+	height: 200px;
+	padding: 0;
 }
-.pie-de-pagina{
-	height: 100px;
-	background-color: #ccc;
-	color:#000;
-	text-align: right;
+
+.texto{
+	margin: 10px;
+
 }
+.tarjetas-img{
+	border: 2px solid #fff;
+	width: 80%;
+}
+
 .pie-de-pagina p{
-	padding: 3%;
+	padding: 10%;
+	text-align: center;
+	color: #866100;
 }
-@media (max-width: 1400px) and (min-width: 400px){
+
+/*@media (max-width: 1400px) and (min-width: 400px){
 	.menu-der{
 		display: inline-block;
 	}
